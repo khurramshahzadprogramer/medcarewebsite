@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('https://preview.colorlib.com/theme/medcare/images/bg_1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 150px 0;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.services {
+    background: url('https://preview.colorlib.com/theme/medcare/images/bg_2.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.service-box i {
+    color: white;
+}
+
+footer {
+    background: #343a40;
+}
+
+footer p {
+    margin: 0;
+}
